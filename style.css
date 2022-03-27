@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content:center;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('https://source.unsplash.com/1600x900/?mountains');
+
+}
+
+.cardDisplay{
+    background: #110000d0;
+    padding: 3rem;
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+    max-width: 450px;
+}
+
+.searchField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+h1.temperature {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin: 0.5rem;
+    border-radius: 50%;
+    height: 1.90rem;
+    width: 1.90rem;
+    background: #7c7c7c8b;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+input.searchBar {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 15px;
+    padding: 0.5em 1em;
+    background-color: #7c7c7c6b;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 96px);
+}
+
+button:hover {background: white;}
+
+.iconDes {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.humidity {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.pressure {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.wind-speed {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.visibility {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
